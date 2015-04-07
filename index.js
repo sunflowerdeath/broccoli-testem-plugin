@@ -36,9 +36,6 @@ Tree.prototype.read = function(readTree) {
 			// Copy files to the testemDir
 			rimraf.sync(_this.testemDir + '/*')
 			copyDirContent(inputDir, _this.testemDir)
-			return Q.delay(100)
-		})
-		.then(function() {
 			return _this.runTestem(_this.options)
 		})
 		.then(function() { return _this.testemDir })
