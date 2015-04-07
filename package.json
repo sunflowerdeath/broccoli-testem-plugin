@@ -1,0 +1,33 @@
+{
+  "name": "broccoli-testem-plugin",
+  "version": "0.0.1",
+  "description": "Plugin for Broccoli that runs tests with Testem",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunflowerdeath/broccoli-testem-plugin"
+  },
+  "dependencies": {
+    "q": "^1.2.0",
+    "quick-temp": "^0.1.2",
+    "rimraf": "^2.3.2",
+    "symlink-or-copy": "^1.0.1",
+    "testem": "^0.8.0-0"
+  },
+  "devDependencies": {
+    "broccoli": "^0.15.3",
+    "sinon": "^1.14.1",
+    "underscore": "^1.8.3"
+  },
+  "keywords": [
+    "broccoli-plugin"
+  ],
+  "author": "sunflowerdeath",
+  "license": "public domain"
+}
